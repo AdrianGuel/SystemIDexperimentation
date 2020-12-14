@@ -1,4 +1,7 @@
 %Least squares offline
+%Adrian-Josue Guel-Cortez
+%If you use my codes do not forget to cite me
+%https://scholar.google.com.mx/citations?user=gZcBLuoAAAAJ&hl=es
 function [theta_0,P,f_0]=LeastSquaresOffline(u,y,n,a,gamma)
 N=length(u)-1;
 W=zeros(N-n+1,N-n+1);
