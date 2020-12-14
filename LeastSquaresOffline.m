@@ -1,5 +1,5 @@
 %Least squares offline
-%Adrian-Josue Guel-Cortez
+%Adrian-Josue Guel-Cortez 2020
 %If you use my codes do not forget to cite me
 %https://scholar.google.com.mx/citations?user=gZcBLuoAAAAJ&hl=es
 function [theta_0,P,f_0]=LeastSquaresOffline(u,y,n,a,gamma)
